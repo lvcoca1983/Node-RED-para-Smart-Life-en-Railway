@@ -9,4 +9,6 @@ module.exports = {
             permissions: "*"
         }]
     }
+     // usar puerto dinámico
+    uiPort: process.env.PORT || 1880
 };
